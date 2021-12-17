@@ -60,6 +60,7 @@ def app(request):
     app.quit()
 
 
+#
 # @pytest.hookimpl(tryfirst=True, hookwrapper=True)
 # def pytest_runtest_makereport(item, allure=None):
 #     outcome = yield

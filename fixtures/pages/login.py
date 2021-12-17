@@ -22,6 +22,10 @@ class LoginPage(BasePage):
         if is_submit:
             self.click_element(locator=LoginLocators.LOGIN_BTN)
 
+    def login_success(self):
+        element = self.custom_find_element((By.ID, "action-menu-1-menubar"))
+        return element.text
+
     def error(self):
         element = self.custom_find_element((By.ID, "loginerrormessage"))
         return element.text

@@ -4,7 +4,7 @@
 Selenium/Python
 
 
-Use python 3.8 +
+Use python 3.9 +
 Create and activate virtual environments
 
 ```

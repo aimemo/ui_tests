@@ -1,3 +1,5 @@
+[![Python package](https://github.com/aimemo/ui_tests/actions/workflows/python-publish.yml/badge.svg)](https://github.com/aimemo/ui_tests/actions/workflows/python-publish.yml)
+
 # moodle_ui_test
 Selenium/Python
 
